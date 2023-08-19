@@ -10,7 +10,12 @@ const ButtonInfo: React.FC = () => {
 
   return (
     <>
-      <button className="w-8 h-8" onClick={() => handleInfoClick()}>
+      <button
+        name="Info"
+        aria-pressed={showInfo}
+        className="w-8 h-8"
+        onClick={() => handleInfoClick()}
+      >
         <img src="information.svg" alt="info" className="w-8 h-8" />
       </button>
       {showInfo && (
