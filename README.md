@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# Prueba Técnica de Maquetación para Kuorum
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c2155f0-8449-403b-99b1-bffa22239aa8/deploy-status)](https://app.netlify.com/sites/kuorum-prueba-aleksandr/deploys)
+
+## Desafío
+
+Participé en una prueba técnica de maquetación para Kuorum. El desafío consistía en lo siguiente:
+
+1. Maquetar el material proporcionado en Figma.
+2. Definir 3 puntos de corte:
+   a. 320
+   b. 768
+   c. 1024
+3. Subir el código a GitHub.
+4. Desplegar el proyecto en GitHub Pages, Netlify o cualquier servidor público para que pueda ser evaluado.
+
+## Implementación
+
+Realicé la maquetación utilizando React y TypeScript. Diseñé varios componentes reutilizables:
+
+├── components
+| | ├── Button
+| | ├── ButtonInfo
+| | ├── CardWithImage
+| | ├── Header
+| | ├── Logo
+| | └── MainCard
+
+Durante el proceso de desarrollo, utilicé Git y GitFlow para mantener un flujo de trabajo ordenado y seguimiento de versiones.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
