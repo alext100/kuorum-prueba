@@ -14,8 +14,14 @@ const CardWithImage: React.FC<CardWithImageProps> = ({
         <img src={image} alt={title} className="w-[72px] h-[72px]" />
       </div>
       <div className="flex py-4 pr-4 flex-col justify-center items-start">
-        {title && <h3 className="bold-l pb-1">{title}</h3>}
-        <p className="regular-m">{description}</p>
+        {title && (
+          <h3 className="bold-l pb-1 -text--color-ap-text-neutral-20">
+            {title}
+          </h3>
+        )}
+        <p className="regular-m -text--color-ap-text-neutral-40">
+          {description}
+        </p>
         <a
           title={`Abrir la página ${linkText}`}
           className="semibold-m -text--color-ap-link-enabled text-center pt-4"

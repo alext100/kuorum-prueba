@@ -11,10 +11,15 @@ body {
 }
 
 :root {
-  --color-ap-bg-neutral-90: #e0e0e0;
+  --color-ap-bg-neutral-90: #fcfcfc;
   --color-ap-bg-white: #fff;
-  --color-brand-bluetiful-bluetiful-95: "#EDF2FC";
+  --color-brand-bluetiful-bluetiful-95: #edf2fc;
+  --color-ap-text-bluetiful: #4d7ae3;
   --color-ap-link-enabled: #4d7ae3;
+  --color-ap-text-neutral-20: #2c2c2c;
+  --color-ap-text-neutral-40: #575757;
+  --color-ap-text-neutral-50: #838383;
+  --color-ap-button-primary-outline-enabled: #4d7ae3;
 }
 
 @layer utilities {
